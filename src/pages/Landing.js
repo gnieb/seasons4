@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Landing = () => {
 
@@ -12,8 +13,9 @@ const Landing = () => {
         // </div>
         <div className="relative w-screen h-screen bg-cover bg-center"
         style={{backgroundImage: `url(${background})`}}>
-           <div className="absolute top-1/2 left-1/2 text-3xl text-white">ENTER</div>
-            
+           <div className="absolute top-1/2 left-1/2 text-3xl text-white">
+                <NavLink to="/home" className="">ENTER</NavLink>
+            </div>
         </div>
     )
 };
