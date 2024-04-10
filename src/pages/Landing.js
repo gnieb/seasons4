@@ -14,9 +14,9 @@ const Landing = () => {
         <div className="relative w-screen h-screen bg-cover bg-center"
         style={{backgroundImage: `url(${background})`}}>
 
-           <div className="absolute m-auto top-1/2 left-1/2 text-3xl text-white">
-                <div className=" p-10">LOGO HERE</div>
-                <NavLink to="/home" className="m-auto bg-black px-12 p-2 hover:bg-gray-200 text-3xl ">ENTER</NavLink>
+           <div className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 text-3xl text-white">
+                <div className="m-5 text-center">LOGO HERE</div>
+                <NavLink to="/home" className="m-5 bg-black px-12 p-2 hover:bg-gray-200 text-3xl ">ENTER</NavLink>
             </div>
         </div>
     )
