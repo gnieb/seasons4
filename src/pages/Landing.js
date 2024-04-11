@@ -1,7 +1,16 @@
-import React from "react";
+import React, {useState} from "react";
 import { NavLink } from "react-router-dom";
 
 const Landing = () => {
+
+    const [fading, setFading] = useState(false);
+
+
+    const handleFade = () => {
+        setFading(true)
+    }
+
+    
 
     const background = "https://images.unsplash.com/photo-1623475173140-ad2f0369ca92?q=80&w=2824&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 
@@ -16,7 +25,10 @@ const Landing = () => {
 
            <div className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 text-3xl text-white">
                 <div className="m-5 text-center">LOGO HERE</div>
-                <NavLink to="/home" className="m-5 bg-black px-12 p-2 hover:bg-gray-200 text-3xl ">ENTER</NavLink>
+                <button className=""
+                    onClick={()=> console.log("help")}>
+
+                    <NavLink to="/home" className="m-5 bg-black px-12 p-2 hover:bg-gray-200 text-3xl ">ENTER</NavLink></button>
             </div>
         </div>
     )
