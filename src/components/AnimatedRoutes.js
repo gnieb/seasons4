@@ -1,6 +1,9 @@
 import { Route, Routes,useLocation } from "react-router-dom";
 // import {} from "framer-motion/dist/framer-motion";
 import { AnimatePresence } from "framer-motion";
+import Home from "../pages/Home";
+import Landing from "../pages/Landing";
+
 
 const AnimatedRoutes = () => {
 

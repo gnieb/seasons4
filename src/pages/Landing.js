@@ -29,7 +29,7 @@ const Landing = () => {
                 <button className=""
                     onClick={()=> console.log("help")}>
 
-                    <NavLink to="/home" className="m-5 bg-black px-12 p-2 hover:bg-gray-200 text-3xl ">ENTER</NavLink></button>
+                    <NavLink to="/main" className="m-5 bg-black px-12 p-2 hover:bg-gray-200 text-3xl ">ENTER</NavLink></button>
             </div>
         </div>
     )
