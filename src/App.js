@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Landing from './pages/Landing';
 import Home from './pages/Home';
 import AnimatedRoutes from './components/AnimatedRoutes';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Router>
         {/* <NavBar /> */}
           <AnimatedRoutes />
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </div>
   );

@@ -5,5 +5,6 @@
 - JavaScript
 - React JS
 - Email JS
+- Framer - Motion
 - Tailwind CSS
 - Deployed with: 
