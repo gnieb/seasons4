@@ -21,7 +21,11 @@ const Landing = () => {
         // <div className="bg-pink-20 h-screen w-screen flex bg-center">
         //     <div className="font-black text-pink-300">ENTREEEE</div>
         // </div>
-        <div className="relative w-screen h-screen bg-cover bg-center"
+        <motion.div 
+        className="relative w-screen h-screen bg-cover bg-center"
+        initial={{opacity:0}}
+        animate={{opacity:1}}
+        exit={{opacity:0, transition:{ duration: 0.9}}}
         style={{backgroundImage: `url(${background})`}}>
 
            <div className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 text-3xl text-white">
@@ -31,7 +35,7 @@ const Landing = () => {
 
                     <NavLink to="/main" className="m-5 bg-black px-12 p-2 hover:bg-gray-200 text-3xl ">ENTER</NavLink></button>
             </div>
-        </div>
+        </motion.div>
     )
 };
 
