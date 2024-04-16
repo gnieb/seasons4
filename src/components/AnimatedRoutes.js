@@ -3,6 +3,7 @@ import { Route, Routes,useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import Home from "../pages/Home";
 import Landing from "../pages/Landing";
+import Services from "../pages/Services";
 
 
 const AnimatedRoutes = () => {
@@ -14,6 +15,7 @@ const AnimatedRoutes = () => {
             <Routes location={location} key={location.pathname}>
                 <Route path="/" element={<Landing />} />
                 <Route path="main" element={<Home />} />
+                <Route path="/services" element={<Services />} />
             </Routes>
         </AnimatePresence>
     )
