@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const TopMenu = () => {
     return (
-        <nav className="bg-white  dark:bg-black">
+        <nav className="bg-white  dark:bg-black py-2">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <NavLink to="/main" className="hover:text-orange-600 flex items-center space-x-3 rtl:space-x-reverse text-white font-black">
                 Seasons4
