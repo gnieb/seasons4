@@ -16,6 +16,7 @@ const AnimatedRoutes = () => {
                 <Route path="/" element={<Landing />} />
                 <Route path="main" element={<Home />} />
                 <Route path="/services" element={<Services />} />
+                
             </Routes>
         </AnimatePresence>
     )
