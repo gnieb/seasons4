@@ -5,13 +5,14 @@ import Landing from './pages/Landing';
 import Home from './pages/Home';
 import AnimatedRoutes from './components/AnimatedRoutes';
 import Footer from './components/Footer';
+import TopMenu from './components/TopMenu';
 
 function App() {
   return (
     <div className="App overflow-y-hidden overflow-x-hidden">
       
       <Router>
-        {/* <NavBar /> */}
+          <TopMenu />
           <AnimatedRoutes />
         <Footer />
       </Router>

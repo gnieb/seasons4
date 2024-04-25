@@ -26,7 +26,7 @@ const TopMenu = () => {
                 <NavLink to="/pricing" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-orange-600 md:p-0 dark:text-white ">PRICING</ NavLink>
                 </li>
                 <li>
-                <NavLink href="/contact" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-orange-600 md:p-0 dark:text-white ">CONTACT</ NavLink>
+                <NavLink to="/contact" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-orange-600 md:p-0 dark:text-white ">CONTACT</ NavLink>
                 </li>
             </ul>
             </div>
