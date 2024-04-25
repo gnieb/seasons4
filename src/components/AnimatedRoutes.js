@@ -4,6 +4,7 @@ import { AnimatePresence } from "framer-motion";
 import Home from "../pages/Home";
 import Landing from "../pages/Landing";
 import Services from "../pages/Services";
+import About from './pages/About';
 
 
 const AnimatedRoutes = () => {
@@ -16,7 +17,7 @@ const AnimatedRoutes = () => {
                 <Route path="/" element={<Landing />} />
                 <Route path="main" element={<Home />} />
                 <Route path="/services" element={<Services />} />
-                
+                <Route path="/about" element={<About />} />
             </Routes>
         </AnimatePresence>
     )
