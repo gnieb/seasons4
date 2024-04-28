@@ -8,7 +8,7 @@ const Home = ()=> {
         <motion.div 
         className=" w-screen bg-stone-900"
         >
-            <TopMenu />
+
 
             <div className="flex items-center justify-center py-16 text-black bg-center bg-white bg-cover bg-opacity-50 opacity-65 bg-no-repeat bg-[url('https://images.unsplash.com/photo-1628294897055-a9bfca0f47ba?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8')]">
                 <div className="">   
