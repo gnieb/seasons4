@@ -4,7 +4,7 @@ import { AnimatePresence } from "framer-motion";
 import Home from "../pages/Home";
 import Landing from "../pages/Landing";
 import Services from "../pages/Services";
-import About from './pages/About';
+import About from '../pages/About';
 
 
 const AnimatedRoutes = () => {
