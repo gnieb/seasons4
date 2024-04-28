@@ -5,6 +5,7 @@ import Home from "../pages/Home";
 import Landing from "../pages/Landing";
 import Services from "../pages/Services";
 import About from '../pages/About';
+import Contact from '../pages/Contact';
 
 
 const AnimatedRoutes = () => {
@@ -18,6 +19,7 @@ const AnimatedRoutes = () => {
                 <Route path="main" element={<Home />} />
                 <Route path="/services" element={<Services />} />
                 <Route path="/about" element={<About />} />
+                <Route path="/contact" element={<Contact />} />
             </Routes>
         </AnimatePresence>
     )
