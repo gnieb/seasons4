@@ -7,7 +7,7 @@ import ReviewGrid from "../components/ReviewGrid";
 const Home = ()=> {
     return (
         <motion.div 
-        className=" w-screen bg-stone-900"
+        className="w-screen p-10 bg-stone-900"
         >
 
 
@@ -18,7 +18,7 @@ const Home = ()=> {
                     <div><NavLink className="hover:bg-stone-900 bg-black italic text-white px-6 p-3">SEE MORE</NavLink></div>
                 </div> 
             </div>
-            <Testimonials />
+            {/* <Testimonials /> */}
             <ReviewGrid />
         </motion.div>
     )
