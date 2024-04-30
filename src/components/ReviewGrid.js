@@ -1,9 +1,18 @@
+import { useState } from "react";
+
 const ReviewGrid = () => {
+
+    const [isHov1, setIsHov1] = useState(false);
+
+
     return (
-        <div class="m-20 lg:mx-32 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 text-md md:text-sm">
+        <div class="m-20 lg:mx-32 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 t sm:text-md md:text-sm">
                
-                <div className="hover:opacity-50 ">
-                    <img className="object-cover object-center w-full h-48 max-w-full " src="https://images.unsplash.com/photo-1543392883-914cfa6f9ed4?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                <div className="hover:scale-110 duration-500"
+                onMouseEnter={()=> setIsHov1(true)}
+                onMouseLeave={()=> setIsHov1(false)}>
+                    {isHov1 ? <p className="bg-stone-100 text-left font-serif font-bold p-3 w-full h-48">Food was great and very flavorful. Thanks to Samuel made our last minute office party happen ! </p> :
+                    <img className="object-cover object-center w-full h-48 max-w-full " src="https://images.unsplash.com/photo-1543392883-914cfa6f9ed4?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" /> }
                 </div>
                 <div>
                     <img className="object-cover object-center w-full h-48 max-w-full " src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
