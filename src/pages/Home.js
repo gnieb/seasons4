@@ -2,6 +2,7 @@ import {motion} from "framer-motion";
 import TopMenu from "../components/TopMenu";
 import Testimonials from "../components/Testimonials";
 import { NavLink } from "react-router-dom";
+import ReviewGrid from "../components/ReviewGrid";
 
 const Home = ()=> {
     return (
@@ -18,6 +19,7 @@ const Home = ()=> {
                 </div> 
             </div>
             <Testimonials />
+            <ReviewGrid />
         </motion.div>
     )
 };
