@@ -7,4 +7,8 @@
 - Email JS
 - Framer - Motion
 - Tailwind CSS
-- Deployed with: 
+- Deployed with: TBD
+
+### Deploy Date
+2024, TBD
+
