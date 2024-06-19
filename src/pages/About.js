@@ -1,7 +1,10 @@
+import TopMenu from "../components/TopMenu";
+
 
 const About = () => {
     return (
         <div className="w-screen">
+            <TopMenu />
             <div className="w-screen p-10 md:px-20 text-xl">
                     <div className="w-full p-5 text-3xl font-serif font-bold">Welcome to SEASONS4, where culinary artistry meets exceptional service.</div>
                     <div className="w-full flex justify-between">

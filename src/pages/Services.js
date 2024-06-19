@@ -1,5 +1,9 @@
+import TopMenu from "../components/TopMenu";
+
 const Services = () => {
     return (
+        <div>
+            <TopMenu />
         <div className="overflow-x-hidden">
            
             <div className="pt-24 sm:pt-32 p-10 grid sm:grid-cols-2 lg:grid-cols-2 gap-8  bg-base text-darker">
@@ -46,6 +50,7 @@ const Services = () => {
             </div>
 
             <div className="mb-10 font-bold text-center italic text-lg sm:text-xl m-auto">Prices vary depending on size and traveling distance</div>
+        </div>
         </div>
     )
 };
