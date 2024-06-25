@@ -23,15 +23,15 @@ const About = () => {
             </div>
             <div className="p-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div className="grid grid-rows-2 items-center">
-                    <div className="text-4xl font-serif font-bold">VALUE</div>
+                    <div className="text-4xl font-serif font-bold">LOCALLY SOURCED</div>
                     <div>Seasons4 works closely with local farmers, fishermen and artisans to bring you the freshest ingredients at a very reasonable price.</div>
                 </div>
                 <div className="grid grid-rows-2 items-center">
-                    <div className="text-4xl font-serif font-bold">VALUE</div>
+                    <div className="text-4xl font-serif font-bold">CUSTOM CATERING</div>
                     <div>Seasons4 works closely with local farmers, fishermen and artisans to bring you the freshest ingredients at a very reasonable price.</div>
                 </div>
                 <div className="grid grid-rows-2 items-center">
-                    <div className="text-4xl font-serif font-bold">VALUE</div>
+                    <div className="text-4xl font-serif font-bold">HIGHEST QUALITY</div>
                     <div>Seasons4 works closely with local farmers, fishermen and artisans to bring you the freshest ingredients at a very reasonable price.</div>
                 </div>
 

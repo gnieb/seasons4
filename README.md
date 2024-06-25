@@ -1,7 +1,8 @@
 # Seasons4
 
-## ABOUT THE PROJECT 
-### Built With
+## ABOUT THE PROJECT
+
+### Built With 
 - JavaScript
 - React JS
 - Email JS
